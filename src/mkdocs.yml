@@ -1,4 +1,5 @@
 repo_url: https://github.com/flanksaul/mkdocs-netlify-starter
+site_dir: "../dist"
 repo_name: knowledge base
 docs_dir: ./
 site_name: Knowledge Base
