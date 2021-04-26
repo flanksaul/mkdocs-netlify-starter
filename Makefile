@@ -9,7 +9,7 @@ container:
 
 .PHONY: serve
 serve: container
-	docker run --rm -it -p 8000:8000 -v $(PWD):/ -w / $(CONTAINER)
+	docker run --rm -it -p 8001:8000 -v $(PWD)/src:/docs -w /docs $(CONTAINER)
 
 .PHONY: build
 build:
