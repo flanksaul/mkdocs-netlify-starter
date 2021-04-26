@@ -1,4 +1,0 @@
-# netlify.toml
-[build]
-  command = "cd src && mkdocs build"
-  publish = "dist"
