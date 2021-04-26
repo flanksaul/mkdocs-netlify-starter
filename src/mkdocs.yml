@@ -1,7 +1,7 @@
 repo_url: https://github.com/flanksaul/mkdocs-netlify-starter
 repo_name: knowledge base
 docs_dir: ./
-site_name: knowledge base
+site_name: Knowledge Base
 theme:
   name: "material"
   palette:
@@ -14,8 +14,6 @@ theme:
     - navigation.sections
     - navigation.tabs
     - toc.integrate
-    # - git-revision-date:
-    #     enabled_if_env: CI
 markdown_extensions:
   - admonition
   - pymdownx.snippets

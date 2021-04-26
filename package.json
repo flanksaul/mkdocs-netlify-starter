@@ -1,0 +1,22 @@
+{
+  "name": "mkdocs-netlify-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "netlify deploy --site 834693fa-6308-4a5b-863c-ea8e96e9fe02 --prod --dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flanksaul/mkdocs-netlify-starter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flanksaul/mkdocs-netlify-starter/issues"
+  },
+  "homepage": "https://github.com/flanksaul/mkdocs-netlify-starter#readme",
+  "dependencies": {
+    "netlify-cli": "^3.21.10"
+  }
+}
