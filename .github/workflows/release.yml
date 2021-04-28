@@ -3,6 +3,7 @@ on:
   workflow_dispatch: {}
 jobs:
   docs:
+    if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     container:
       image: flanksource/build-tools:v0.12.0
