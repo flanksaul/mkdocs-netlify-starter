@@ -1,4 +1,4 @@
-# Knowledge Base
+# Knowledge Based
 
 ## Onboardings
 
